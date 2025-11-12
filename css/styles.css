@@ -1,6 +1,10 @@
 :root {
     --font-sans-serif: Nunito, sans-serif;
     --font-block: Bebas Neue, sans-serif;
+    --red: #d41f35;
+    --yellow: #fec111;
+    --white: #ffffff;
+    --gray: #2a2a2a;
 }
 
 @import 'normalize.css';
