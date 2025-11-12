@@ -46,3 +46,50 @@ p {
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
+
+.cta {
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  color: var(--red);
+  font-size: 1rem;
+  font-family: var(--font-block);
+  line-height: 65px;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  background: url(/components/img/home_page/extra_assets/cta_border.svg) center no-repeat;
+  background-size: contain;
+}
+
+.cta_filled {
+  background-image: url(/components/img/home_page/extra_assets/cta_filled.svg);
+  color: var(--white);
+}
+
+.cta_social {
+  font-family: var(--font-sans-serif);
+  font-size: .8rem;
+  background-color: var(--yellow);
+  background-image: none;
+  border-radius: 3px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--white);
+  width: auto;
+  padding: .5rem 1rem;
+}
+
+.cta_social_insta {
+  background-color: var(--red);
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+h9 {
+  font-size: 4rem;
+  color: var(--yellow);
+  font-weight: 900;
+}

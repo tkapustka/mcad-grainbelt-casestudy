@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="56px" viewBox="0 0 147 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Polygon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button-shape" transform="translate(1.000000, 1.000000)" fill="#D40032" stroke="#D40032" stroke-width="2">
+            <polygon id="Polygon" points="72.5 0 144.813121 13.5 144.813121 40.5 72.5 54 0.1868788 40.5 0.1868788 13.5"></polygon>
+        </g>
+    </g>
+</svg>
