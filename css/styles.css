@@ -1,0 +1,17 @@
+:root {
+    --font-sans-serif: Nunito, sans-serif;
+    --font-block: Bebas Neue, sans-serif;
+}
+
+@import 'normalize.css';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-sans-serif);
+}
