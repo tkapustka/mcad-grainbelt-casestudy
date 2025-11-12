@@ -1,2 +1,2 @@
-# mcad-grainbelt-casestudy
+# MCAD grainbelt
 Grainbelt case study for MCAD final project
