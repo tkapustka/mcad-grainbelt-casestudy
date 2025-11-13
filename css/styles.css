@@ -22,7 +22,7 @@ html {
   position: fixed;
   left: 0;
   top: 0;
-  width: 15%;
+  width: 11%;
   height: 100vh;
   box-sizing: border-box;
   border: 1px solid #f1f1f1;
@@ -37,6 +37,12 @@ html {
   display: block;
   text-decoration: none;
   padding-top: 2rem;
+  color: var(--gray);
+  font-size: 1.2rem;
+}
+
+.nav a:hover {
+  color: var(--red);
 }
 
 .nav img {
@@ -45,8 +51,18 @@ html {
   height: auto;
 }
 
+.nav_bg {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--yellow);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+}
+
 body {
-  margin-left: 15%;
+  margin-left: 11%;
   font-family: var(--font-sans-serif);
   padding: 3rem;
 }
@@ -147,5 +163,9 @@ h9 {
 .component_name {
   background-color: var(--light_gray);
   color: var(--white);
-  padding: .5rem 0rem;
+  padding: .5rem .5rem;
+}
+
+.component_code {
+  padding-left: .5rem;
 }
