@@ -1,10 +1,11 @@
 :root {
-    --font-sans-serif: Nunito, sans-serif;
-    --font-block: Bebas Neue, sans-serif;
-    --red: #d40032;
-    --yellow: #fec111;
-    --white: #ffffff;
-    --gray: #2a2a2a;
+  --font-sans-serif: Nunito, sans-serif;
+  --font-block: Bebas Neue, sans-serif;
+  --red: #d40032;
+  --yellow: #fec111;
+  --white: #ffffff;
+  --gray: #2a2a2a;
+  --light_gray: #545454;
 }
 
 @import 'normalize.css';
@@ -16,9 +17,40 @@ html {
   box-sizing: inherit;
 }
 
-body {
-    font-family: var(--font-sans-serif);
+/* nav sidebar */
+.nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 15%;
+  height: 100vh;
+  box-sizing: border-box;
+  border: 1px solid #f1f1f1;
+  background-color: var(--white);
 }
+
+.nav_side {
+  text-align: center;
+}
+
+.nav a{
+  display: block;
+  text-decoration: none;
+  padding-top: 2rem;
+}
+
+.nav img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+body {
+  margin-left: 15%;
+  font-family: var(--font-sans-serif);
+  padding: 3rem;
+}
+
 
 h1 {
   font-family: var(--font-block);
@@ -35,11 +67,15 @@ h2 {
   font-size: 3.5rem;
   letter-spacing: .2rem;
   font-weight: normal;
-  }
-
-.h2_bg {
   background-color: var(--gray);
+  padding: 1rem;
+  width: fit-content;
 }
+
+h3 {
+  margin: 0;
+}
+
 
 p {
   font-family: var(--font-sans-serif);
@@ -89,8 +125,27 @@ p {
   gap: .5rem;
 }
 
+/* component titles */
+
 h9 {
-  font-size: 4rem;
-  color: var(--yellow);
-  font-weight: 900;
+  font-size: 3rem;
+  color: var(--white);
+  font-family: var(--font-block);
+  margin-left: 2rem;
+}
+
+.component_title {
+  background-color: var(--gray);
+  padding: 1rem 0rem;
+}
+
+.component {
+  border: 1px solid var(--gray);
+  margin-bottom: 2rem;
+}
+
+.component_name {
+  background-color: var(--light_gray);
+  color: var(--white);
+  padding: .5rem 0rem;
 }
