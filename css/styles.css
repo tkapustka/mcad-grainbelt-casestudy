@@ -181,6 +181,12 @@ p {
   padding-top: .4rem;
 }
 
+.beer_all {
+  display: flex;
+  align-items: baseline;
+  gap: 3rem;
+}
+
 /* component titles */
 
 h9 {
