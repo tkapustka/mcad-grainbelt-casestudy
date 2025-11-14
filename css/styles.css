@@ -22,7 +22,7 @@ html {
   position: fixed;
   left: 0;
   top: 0;
-  width: 11%;
+  width: 15%;
   height: 100vh;
   box-sizing: border-box;
   border: 1px solid #f1f1f1;
@@ -79,7 +79,7 @@ html {
 }
 
 body {
-  margin-left: 11%;
+  margin-left: 15%;
   font-family: var(--font-sans-serif);
   padding: 3rem;
 }
