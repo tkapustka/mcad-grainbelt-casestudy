@@ -180,6 +180,10 @@ p {
   gap: .5rem;
 }
 
+.cta_social_insta svg {
+  width: 15px;
+}
+
 /* beer cans */
 .beer {
   display: flex;
