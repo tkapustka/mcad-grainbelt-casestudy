@@ -253,6 +253,16 @@ p {
   gap: 3rem;
 }
 
+/* shop */
+.shop {
+  display: flex;
+}
+
+.shop img {
+  width: 500px;
+  margin-left: 3rem;
+}
+
 /* component titles */
 
 h9 {
