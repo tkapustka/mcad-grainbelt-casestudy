@@ -163,6 +163,24 @@ p {
   gap: .5rem;
 }
 
+/* beer cans */
+.beer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beer_findme {
+  width: 35px;
+  padding-top: 1.2rem;
+}
+
+.beer_findme_text {
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  padding-top: .4rem;
+}
+
 /* component titles */
 
 h9 {
