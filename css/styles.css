@@ -151,6 +151,15 @@ p {
   padding: .5rem 1rem;
 }
 
+/* hero */
+.hero_comp_image {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
 /* social */
 
 .social_circle {
