@@ -29,7 +29,6 @@ html {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .nav_side {
@@ -70,7 +69,13 @@ html {
 
 .nav_schells {
   margin-top: auto;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #f1f1f1;
+  text-align: center;
+}
+
+.nav_schells img {
+  height: 80px;
 }
 
 body {
