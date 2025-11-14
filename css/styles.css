@@ -181,6 +181,44 @@ p.hero_find_thirst {
   font-size: 3rem;
 }
 
+.hero_bar_form {
+  display: flex;
+  border: 3px solid var(--red);       
+  flex-wrap: nowrap;        
+  margin: 2rem 1rem;
+  flex-grow: 1;
+  max-width: fit-content;
+}
+
+.hero_bar_form_input {
+  flex-grow: 1; 
+  border: none;
+  background-color: transparent;
+  color: var(--red);
+  outline: none;
+  font-weight: bold;
+  font-family: var(--font-block);
+  font-size: 2rem;
+  letter-spacing: .05rem;
+  padding: 0rem 1.5rem;
+  min-width: 400px;
+}
+
+.hero_bar_form_button {
+  border: none;
+  background-color: var(--red);
+  padding: 1.5rem 2.5rem;
+  font-family: var(--font-block);
+  flex-shrink: 0;
+  cursor: pointer;
+  color: var(--yellow);
+  font-size: 2rem;
+ }
+
+ .hero_bar_form_input::placeholder {
+  color: var(--red);
+}
+
 /* social */
 
 .social_circle {
