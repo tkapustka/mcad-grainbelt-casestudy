@@ -259,6 +259,29 @@ p.hero_find_thirst {
   width: 15px;
 }
 
+.social_insta_link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.social_insta_link img {
+  width: 100px;
+}
+
+.insta_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.insta_grid img {
+  width: 100%;
+}
+
 /* images */
 .image_over {
   position: relative;
