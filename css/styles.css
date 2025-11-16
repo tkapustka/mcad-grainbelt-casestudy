@@ -153,20 +153,18 @@ p {
 }
 
 /* hero */
-.hero_comp_image {
-  width: 100%;
-}
 
-
-.hero_find {
+.hero_find_form {
   display: flex;
   align-items: baseline;
   justify-content: center;
   background-color: var(--yellow);
+  padding-left: 3rem;
 }
 
 .hero img {
   width: 100%;
+  display: block;
 }
 
 .hero_find img {
