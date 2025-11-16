@@ -397,6 +397,34 @@ p.hero_find_thirst {
   padding: 0 4rem 0 0;
 }
 
+.footer_barsocial {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 2px dotted rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.footer_schells {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footer_schells img {
+  width: 100px;
+  padding: 0;
+}
+
+.footer_schells p {
+  color: var(--white);
+  font-size: .8rem;
+}
+
 /* component titles */
 
 h9 {
