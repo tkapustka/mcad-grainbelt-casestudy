@@ -372,9 +372,6 @@ p.hero_find_thirst {
   margin: 3rem 0 0 3rem;
 }
 
-.footer_right img {
-  padding-bottom: 2rem;
-}
 
 .footer_lists {
   display: flex;
@@ -423,6 +420,11 @@ hr {
 .footer_schells p {
   color: var(--white);
   font-size: .8rem;
+}
+
+.social_circle_footer {
+  background-color: transparent;
+  border: 1px solid var(--white);
 }
 
 /* component titles */
