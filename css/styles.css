@@ -428,8 +428,10 @@ hr {
 /* Nordeast Page  */
 
 .nordeast {
-  background-color: #1d4a35;
   display: flex;
+  background-image: url(../img/nordeast/Nordeast_Bkgnd-2000x1200.webp);
+  min-height: 1000px;
+  align-items: center;
 }
 
 .nordeast p {
@@ -454,6 +456,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 55%;
 }
 
 .nordeast_text {
