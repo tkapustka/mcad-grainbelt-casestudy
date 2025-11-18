@@ -376,6 +376,10 @@ p.hero_find_thirst {
   color: var(--white);
 }
 
+.footer_lists ul {
+  list-style-type: none;
+}
+
 .footer_lists p{
   color: var(--white);
   font-size: 1rem;
@@ -498,11 +502,12 @@ hr {
 
 /* component titles */
 
-h9 {
+h6 {
   font-size: 3rem;
   color: var(--white);
   font-family: var(--font-block);
-  margin-left: 2rem;
+  letter-spacing: .1rem;
+  margin: 0 0 0 2rem;
 }
 
 .component_title {
