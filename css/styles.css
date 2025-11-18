@@ -425,6 +425,12 @@ hr {
   border: 1px solid var(--white);
 }
 
+/* Nordeast Page  */
+
+.nordeast {
+  background-color: #1d4a35;
+}
+
 /* component titles */
 
 h9 {
