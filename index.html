@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Grainbelt</title>
+    <title>Components - Grainbelt</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
+
+
 <body>
-    <a href="/components/index.html">Components</a>
+    <nav class="nav">
+        <div class="nav_bg"></div>
+        <div class="nav_side">
+            <img src="../img/logos/logo-grainbelt.svg" alt="grainbelt logo">
+            <a href="https://www.grainbelt.com/our-story/" target="_blank">our story</a>
+            <a href="https://www.grainbelt.com/beers/" target="_blank">beers</a>
+            <a href="https://www.grainbelt.com/beer-locator/" target="_blank">beer locator</a>
+            <a href="https://www.grainbelt.com/brewery/" target="_blank">brewery</a>
+            <a href="https://www.schellsbrewery.com/shop/" target="_blank">shop</a>
+            <a href="https://www.schellsbrewery.com/brewery/tour-schells/" target="_blank">Tours</a>
+            <div class="social_align">
+                <div class="social_circle">
+                    <img src="../img/social/facebook.svg" alt="facebook logo">
+                </div>
+                <div class="social_circle">
+                    <img src="../img/social/insta.svg" alt="instagram logo">
+                </div>
+                <div class="social_circle">
+                    <img src="../img/social/twitter.svg" alt="facebook logo">
+                </div>
+            </div>
+        </div>
+        <div class="nav_schells">
+            <img src="../img/logos/schells-logo.svg" alt="Schells brewing logo">
+        </div>
+    </nav>
+
+    <!-- hero -->
+
+    <section class="hero">
+        <img src="../img/hero.jpg" alt="hero image with beers and bird">
+        <div class="hero_find">
+            <img src="../img/logos/logo-grainbelt-notag.svg" alt="grainbelt logo">
+             <div class="hero_find_form">
+                 <p class="hero_find_thirst">Thirsty?</p>
+                 <p>find grain belt near you</p>
+                <form class="hero_bar_form" action="#" method="get">
+                    <input 
+                            class="hero_bar_form_input" 
+                            type="text" 
+                            placeholder="ENTER ZIP CODE OR CITY, STATE">
+                
+                    <button class="hero_bar_form_button" type="submit">
+                            FIND BEER
+                    </button>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Brewed in the Heart of America's Grain Belt</h1>
+        
+        <div class="image_over">
+            <img src="../img/background_images/cheers.webp" alt="people cheersing with schells beer">
+            <div class="image_over_text">
+                <h4>grain belt & schell's</h4>
+                <h2>a friendly duo brewed side by side in new ulm, mn</h2>
+                <a href="#" class="cta cta_filled">Discover the brewery</a>
+            </div>
+        </div>
+
+    </section>
+
 </body>
 </html>

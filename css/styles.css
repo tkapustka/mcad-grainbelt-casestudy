@@ -22,7 +22,7 @@ html {
   position: fixed;
   left: 0;
   top: 0;
-  width: 15%;
+  width: 10%;
   height: 100vh;
   box-sizing: border-box;
   border: 1px solid #f1f1f1;
@@ -79,7 +79,7 @@ html {
 }
 
 body {
-  margin-left: 15%;
+  margin-left: 10%;
   font-family: var(--font-sans-serif);
   padding: 3rem;
 }
@@ -317,10 +317,12 @@ p.hero_find_thirst {
 .image_over_text h4 {
   font-family: var(--font-block);
   color: var(--white);
+  font-size: 1.8rem;
 }
 
 .image_over_text h2 {
   background-color: transparent;
+  margin: .5rem 0;
 }
 
 
