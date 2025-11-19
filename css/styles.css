@@ -224,6 +224,21 @@ p.hero_find_thirst {
   color: var(--red);
 }
 
+/* main */
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../img/background_images/bg-diamonds-gold.png);
+}
+
+.main_headline {
+  width: 900px;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
 /* social */
 
 .social_circle {
@@ -349,6 +364,14 @@ p.hero_find_thirst {
   display: flex;
   align-items: baseline;
   gap: 3rem;
+}
+
+.beer_nordeast_url {
+  transition: transform 0.3s ease;
+}
+
+.beer_nordeast_url:hover {
+  transform: translateY(-15px);
 }
 
 /* shop */
