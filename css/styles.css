@@ -150,6 +150,7 @@ p {
   color: var(--white);
   width: auto;
   padding: .5rem 1rem;
+  margin-right: 1rem;
 }
 
 /* hero */
@@ -279,7 +280,7 @@ p.hero_find_thirst {
   gap: .5rem;
 }
 
-.cta_social_insta svg {
+.cta_social_insta img {
   width: 15px;
 }
 
@@ -304,6 +305,12 @@ p.hero_find_thirst {
 
 .insta_grid img {
   width: 100%;
+}
+
+.social_buttons {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* images */
