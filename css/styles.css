@@ -388,6 +388,8 @@ p.hero_find_thirst {
 /* shop */
 .shop {
   display: flex;
+  align-items: center;
+  margin: 8rem 0 3rem 0;
 }
 
 .shop img {
