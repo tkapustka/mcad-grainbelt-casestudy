@@ -571,7 +571,7 @@ p.hero_find_thirst {
   gap: 2rem;
 }
 
-hr {
+hr.footer_dotted {
   flex-grow: 1;
   border: none;
   border-top: 2px dotted rgba(255, 255, 255, 0.5);
@@ -624,7 +624,20 @@ hr {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   margin: 0;
-}
+  }
+  hr.footer_dotted {
+    display: none;
+  }
+  .footer_barsocial {
+  justify-content: center;
+  }
+
+  .social_align_mobile {
+    margin-bottom: 2rem;
+  }
+  /* .footer_schells {
+    display: block;
+  } */
 }
 
 /* Nordeast Page  */
