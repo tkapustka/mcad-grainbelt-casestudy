@@ -623,7 +623,7 @@ hr.footer_dotted {
     flex-direction: column;
   }
   .footer_right {
-  margin: 3rem 0 0 0;
+  margin: 0;
   }
   .footer_lists ul {
   padding: 0;
@@ -733,6 +733,23 @@ hr.footer_dotted {
 .nordeast_findme {
   padding: 0;
   margin-right: .5rem;
+}
+
+.nordeast_imagetext_mobile {
+  display: none;
+}
+
+@media (max-width: 750px) {  
+  .nordeast_imagetext {
+    display: none;
+  }
+  .nordeast_imagetext_mobile {
+  display: block;
+  }
+  .nordeast {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /* component titles */
