@@ -81,6 +81,9 @@ html {
 body {
   margin-left: 10%;
   font-family: var(--font-sans-serif);
+}
+
+.body_component {
   padding: 3rem;
 }
 
@@ -479,8 +482,11 @@ hr {
 .nordeast {
   display: flex;
   background-image: url(../img/nordeast/Nordeast_Bkgnd-2000x1200.webp);
-  min-height: 1000px;
+  min-height: 1200px;
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .nordeast p {
@@ -505,7 +511,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 55%;
+  min-width: 40%;
 }
 
 .nordeast_text {
