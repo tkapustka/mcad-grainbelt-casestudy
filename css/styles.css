@@ -602,6 +602,10 @@ hr.footer_dotted {
   display: none;
 }
 
+.footer_mobile_line ~ ul {
+  text-transform: uppercase;
+}
+
 @media (max-width: 750px) {  
   .footer_logo_mobile {
     margin-top: 2rem;
