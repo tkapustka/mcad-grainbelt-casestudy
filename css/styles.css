@@ -255,6 +255,32 @@ p.hero_find_thirst {
   color: var(--red);
 }
 
+@media (max-width: 750px) { 
+  .hero_find img {
+    display: none;
+  }
+  .hero_find_form p {
+    display: none;
+  }
+  .hero_find_form {
+    padding: 0;
+  }
+  .hero_bar_form_input {
+    min-width: 0;
+    width: 250px;
+    font-size: 1rem;
+    padding: .5rem;
+  }
+  .hero_bar_form_button {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .hero_bar_form {
+    margin: 2rem auto;
+  }
+}
+
+
 /* main */
 
 .main {
