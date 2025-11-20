@@ -750,6 +750,15 @@ hr.footer_dotted {
     flex-direction: column;
     text-align: center;
   }
+  .nordeast_text {
+    margin: 8rem 0;
+  }
+  .nordeast_title {
+    width: auto;
+  }
+  .nordeast_find_align {
+    justify-content: center;
+  }
 }
 
 /* component titles */
