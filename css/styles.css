@@ -78,10 +78,26 @@ html {
   height: 80px;
 }
 
+
+@media (max-width: 750px) {
+  .nav {
+    display: none;
+  } 
+}
+
+
+
 body {
   margin-left: 10%;
   font-family: var(--font-sans-serif);
 }
+
+@media (max-width: 750px) {
+  body {
+    margin-left: 0%;
+  }
+}
+
 
 .body_component {
   padding: 3rem;
@@ -539,6 +555,7 @@ hr {
 
 .nordeast_find {
   color: var(--white);
+  padding: 1.2rem 0 0 1rem;
 }
 
 .nordeast_find_align {
