@@ -124,6 +124,12 @@ h1 {
   margin: 0;
 }
 
+@media (max-width: 750px) { 
+  h1 {
+    font-size: 3rem;
+  }
+}
+
 h2 {
   font-family: var(--font-block);
   color: var(--white);
@@ -145,6 +151,12 @@ p {
   color: var(--gray);
   font-size: 1.2rem;
   line-height: 1.5rem;
+}
+
+@media (max-width: 750px) { 
+  p {
+    font-size: 1rem;
+  }
 }
 
 .cta {
@@ -307,6 +319,17 @@ p.hero_find_thirst {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 750px) {  
+  .main_headline {
+    width: 500px;
+    line-height: 3rem;
+    margin: 0 0 3rem 0;
+  }
+  .main_paragraph_beer {
+    width: 500px;
+  }
+}
+
 /* social */
 
 .social_circle {
@@ -412,6 +435,24 @@ p.hero_find_thirst {
 .image_over_text h2 {
   background-color: transparent;
   margin: .5rem 0;
+}
+
+@media (max-width: 750px) {  
+  .image_over {
+    height: 500px;
+    }
+  .image_over img {
+    height: 500px;
+  }
+  .image_over_text {
+    width: 500px;
+  }
+  .image_over_text h4 {
+    margin: 0;
+  }
+  .image_over_text h2 {
+    line-height: 3.2rem;
+  }
 }
 
 
