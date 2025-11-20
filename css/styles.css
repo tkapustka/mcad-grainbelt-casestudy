@@ -598,16 +598,22 @@ hr.footer_dotted {
   border: 1px solid var(--white);
 }
 
-.footer_mobile_line {
+.footer_mobile_line, .footer_mobile_grainbelt {
   display: none;
 }
 
 @media (max-width: 750px) {  
+  .footer_logo_mobile {
+    margin-top: 2rem;
+  }
   .footer_hide {
     display: none;
   }
   .footer {
+    display: block;
     text-align: center;
+    background:#a4001d;
+
   }
   .footer_lists {
     flex-direction: column;
@@ -617,6 +623,9 @@ hr.footer_dotted {
   }
   .footer_lists ul {
   padding: 0;
+  }
+  .footer_lists p {
+    margin: .5rem;
   }
   hr.footer_mobile_line {
   display: block;
@@ -631,13 +640,20 @@ hr.footer_dotted {
   .footer_barsocial {
   justify-content: center;
   }
-
+  .footer_mobile_logos {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
   .social_align_mobile {
     margin-bottom: 2rem;
   }
-  /* .footer_schells {
+  .footer_schells {
+    flex-direction: column;
+  }
+  .footer_mobile_grainbelt {
     display: block;
-  } */
+  }
 }
 
 /* Nordeast Page  */
