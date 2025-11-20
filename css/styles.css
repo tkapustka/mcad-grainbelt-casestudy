@@ -78,13 +78,24 @@ html {
   height: 80px;
 }
 
+.nav_mobile {
+  display: none;
+}
+
 
 @media (max-width: 750px) {
   .nav {
     display: none;
   } 
+  .nav_mobile {
+    display: flex;
+    height: 75px;
+    background-color: var(--yellow);
+    background-image: url(../img/logos/bg-small-diamonds.svg);
+    justify-content: center;
+    align-items: center;
+  }
 }
-
 
 
 body {
