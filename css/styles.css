@@ -392,6 +392,13 @@ p.hero_find_thirst {
   justify-content: center;
 }
 
+@media (max-width: 750px) {  
+  .insta_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
 /* images */
 .image_over {
   position: relative;
@@ -501,6 +508,26 @@ p.hero_find_thirst {
   margin-left: 3rem;
 }
 
+.shop_cta_mobile {
+  display: none;
+}
+
+@media (max-width: 750px) {  
+  .shop {
+    flex-direction: column;
+    text-align: center;
+  }
+  .shop img {
+    margin: 0;
+  }
+  .shop_cta {
+    display: none;
+  }
+  .shop_cta_mobile {
+    display: block;
+  }
+}
+
 /* footer */
 
 .footer {
@@ -569,6 +596,10 @@ hr {
 .social_circle_footer {
   background-color: transparent;
   border: 1px solid var(--white);
+}
+
+@media (max-width: 750px) {  
+
 }
 
 /* Nordeast Page  */
