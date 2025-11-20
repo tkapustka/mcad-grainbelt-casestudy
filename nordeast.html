@@ -18,13 +18,10 @@
 </head>
 
 <body>
-
     <nav class="nav">
         <div class="nav_bg"></div>
         <div class="nav_side">
-            <a href="../index.html">
-                <img src="../img/logos/logo-grainbelt.svg" alt="grainbelt logo">
-            </a>
+            <img src="../img/logos/logo-grainbelt.svg" alt="grainbelt logo">
             <a href="https://www.grainbelt.com/our-story/" target="_blank">our story</a>
             <a href="https://www.grainbelt.com/beers/" target="_blank">beers</a>
             <a href="https://www.grainbelt.com/beer-locator/" target="_blank">beer locator</a>
@@ -47,6 +44,10 @@
             <img src="../img/logos/schells-logo.svg" alt="Schells brewing logo">
         </div>
     </nav>
+
+    <section class="nav_mobile">
+        <img src="../img/logos/mobile_logo.webp" alt="grainbelt logo">
+    </section>
 
 
 
@@ -73,9 +74,9 @@
 
     <footer>
         <div class="footer">
-            <img src="../img/footer/bg-footer-background.webp" alt="footer grainbelt logo">
+            <img src="../img/footer/bg-footer-background.webp" alt="footer grainbelt logo" class="footer_hide">
             <div class="footer_right">
-                <img src="../img/footer/logo-grainbelt-text.svg" alt="grainbelt logo text">
+                <img src="../img/footer/logo-grainbelt-text.svg" alt="grainbelt logo text" class="footer_logo_mobile">
                 <div class="footer_lists">
                     <ul>
                         <li><h5>connect</h5></li>
@@ -84,6 +85,7 @@
                         <li><p>Ph: (800) 770-5020</p></li>
                         <li><p>Fax: (507) 359-9119</p></li>
                     </ul>
+                    <hr class="footer_mobile_line">
                     <ul>
                         <li><h5>brewery</h5></li>
                         <li><p>Our Story</p></li>
@@ -98,8 +100,8 @@
                     </ul>
                 </div>
                 <div class="footer_barsocial">
-                        <hr>
-                        <div class="social_align">
+                        <hr class="footer_dotted">
+                        <div class="social_align social_align_mobile">
                             <div class="social_circle social_circle_footer">
                                 <img src="../img/social/facebook.svg" alt="facebook logo">
                             </div>
@@ -111,8 +113,12 @@
                             </div>
                         </div>
                 </div>
+                <hr class="footer_mobile_line">
                 <div class="footer_schells">
-                    <img src="../img/footer/logo-schells-text.svg" alt="schell's logo text">
+                    <div class="footer_mobile_logos">
+                        <img src="../img/footer/logo-schells-text.svg" alt="schell's logo text">
+                        <img src="../img/footer/logo-grainbelt-text.svg" alt="grainbelt logo" class="footer_mobile_grainbelt">
+                    </div>
                     <p>©2025 August Schell Brewing Co. All Rights Reserved | Privacy Policy</p>
                 </div>
             </div>
