@@ -15,6 +15,7 @@
     
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="img/favicon.webp">
+    <script src="carousel.js"></script>
 </head>
 
 
@@ -88,34 +89,42 @@
         <h1 class="main_headline_beer">the friendly beer</h1>
         <p class="main_paragraph_beer">Some old friends and some new, each bringing a little something different. We like to think of ourselves as well-rounded.</p>
 
-        <div class="beer_all">
-            <div class="beer">
-                <img src="img/beers/beer_lager.webp" alt="lager beer can">
-                <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
-                <h1 class="beer_findme_text">Find me</h1>
+        <div class="beer_carousel">
+            <button id="slide_left" class="slide_arrow">
+                <img src="img/arrow.svg" alt="arrow">
+            </button>
+            <div class="beer_all">
+                <div class="beer">
+                    <img src="img/beers/beer_lager.webp" alt="lager beer can">
+                    <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
+                    <h1 class="beer_findme_text">Find me</h1>
+                </div>
+                <div class="beer">
+                    <img src="img/beers/beer_lightlager.webp" alt="light lager beer can">
+                    <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
+                    <h1 class="beer_findme_text">Find me</h1>
+                </div>
+                <div class="beer">
+                    <a href="nordeast.html" class="beer_nordeast_url">
+                        <img src="img/beers/beer_nordeast.webp" alt="nordeast beer can">
+                    </a>
+                    <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
+                    <h1 class="beer_findme_text">Find me</h1>
+                </div>
+                <div class="beer">
+                    <img src="img/beers/beer_elite.webp" alt="elite beer can">
+                    <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
+                    <h1 class="beer_findme_text">Find me</h1>
+                </div>
+                <div class="beer">
+                    <img src="img/beers/beer_blueberry.webp" alt="blueberry beer can">
+                    <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
+                    <h1 class="beer_findme_text">Find me</h1>
+                </div>
             </div>
-            <div class="beer">
-                <img src="img/beers/beer_lightlager.webp" alt="light lager beer can">
-                <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
-                <h1 class="beer_findme_text">Find me</h1>
-            </div>
-            <div class="beer">
-                <a href="nordeast.html" class="beer_nordeast_url">
-                    <img src="img/beers/beer_nordeast.webp" alt="nordeast beer can">
-                </a>
-                <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
-                <h1 class="beer_findme_text">Find me</h1>
-            </div>
-            <div class="beer">
-                <img src="img/beers/beer_elite.webp" alt="elite beer can">
-                <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
-                <h1 class="beer_findme_text">Find me</h1>
-            </div>
-            <div class="beer">
-                <img src="img/beers/beer_blueberry.webp" alt="blueberry beer can">
-                <img src="img/beers/find_me.svg" alt="location icon" class="beer_findme">
-                <h1 class="beer_findme_text">Find me</h1>
-            </div>
+            <button id="slide_right" class="slide_arrow">
+                <img src="img/arrow.svg" alt="arrow">
+            </button>
         </div>
 
         <div class="shop">
