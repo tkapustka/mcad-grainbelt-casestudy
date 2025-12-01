@@ -517,7 +517,7 @@ p.hero_find_thirst {
   .beer_all {
     cursor: grab;
     display: flex;
-    overflow-x: auto;
+    /* overflow-x: auto; */
     scroll-snap-type: x mandatory;
     gap: 2rem;
     scrollbar-width: none;
