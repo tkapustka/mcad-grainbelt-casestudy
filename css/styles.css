@@ -514,14 +514,35 @@ p.hero_find_thirst {
     overflow: hidden;
   }
 
+  .beer_carousel::before,
+  .beer_carousel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    z-index: 5;
+    pointer-events: none;
+  }
+
+  .beer_carousel::before {
+    left: 0;
+    background: linear-gradient(90deg,rgba(255,255,255,1), rgba(255,255,255,0));
+  }
+
+  .beer_carousel::after {
+    right: 0;
+    background: linear-gradient(-90deg,rgba(255,255,255,1), rgba(255,255,255,0));
+  }
+
   .beer_all {
     cursor: grab;
     display: flex;
-    /* overflow-x: auto; */
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 2rem;
     scrollbar-width: none;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
   }
 
   .slide_arrow {
@@ -530,11 +551,10 @@ p.hero_find_thirst {
     transform: translateY(-50%);
     z-index: 10;
     border: none;
-    width: 50px;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent;
   }
 
   .slide_arrow img {
@@ -543,14 +563,15 @@ p.hero_find_thirst {
     display: block;
   }
   #slide_left {
-    left: 10px;
+    left: 3px;
   }
   #slide_left img {
     transform: rotate(180deg);
   }
   #slide_right {
-    right: 10px;
+    right: 3px;
   }
+
 }
 
 /* shop */
