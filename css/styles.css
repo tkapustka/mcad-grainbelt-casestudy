@@ -1,3 +1,5 @@
+@import 'normalize.css';
+
 :root {
   --font-sans-serif: Nunito, sans-serif;
   --font-block: Bebas Neue, sans-serif;
@@ -7,8 +9,6 @@
   --gray: #2a2a2a;
   --light_gray: #545454;
 }
-
-@import 'normalize.css';
 
 html {
   box-sizing: border-box;
